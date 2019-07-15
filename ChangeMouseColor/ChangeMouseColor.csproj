@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+    <Platforms>x64</Platforms>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Microsoft.MouseKeyboardCenter.Interop">
+      <!-- Or whever the mouse software was installed -->
+      <HintPath>..\..\..\..\..\..\Program Files\Microsoft Mouse and Keyboard Center\Microsoft.MouseKeyboardCenter.Interop.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

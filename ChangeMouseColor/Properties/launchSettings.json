@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ChangeMouseColor": {
+      "commandName": "Project",
+      "nativeDebugging": false
+    }
+  }
+}
